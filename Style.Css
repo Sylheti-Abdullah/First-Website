@@ -52,9 +52,10 @@ background-size:cover;
 
 }
 .footer{
-    margin: auto;
+    margin:auto;
     width: 30%;
     text-align: center;
+    
 }
 .last{
     text-align: center;
