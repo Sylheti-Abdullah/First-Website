@@ -22,6 +22,7 @@ color: rgb(255, 20, 145);
 }
 .half-width img{
  width:100%;
+    height: 100%;
 
 }
 
@@ -52,6 +53,7 @@ background-size:cover;
 }
 .footer{
     margin: auto;
+    width: 30%;
     text-align: center;
 }
 .last{
@@ -59,9 +61,15 @@ background-size:cover;
 }
 .box{
     margin:auto;
+    width: 30%;
     background-color: red;
     border-radius: 10px;
+    text-align: center;
     
+}
+#project img{
+    box-shadow: 10px 20px 30px gray;
+    margin: 10px;
 }
 h1 new-text{
 
