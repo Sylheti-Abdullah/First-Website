@@ -28,6 +28,7 @@ color: rgb(255, 20, 145);
 .top-banner{
 background-image: url("personal-website/header-bg.png");
 background-repeat: no-repeat;
+background-size:cover;
 }
 section{
     height: 500px;
@@ -45,10 +46,23 @@ font-weight: 700px;
 
 .dream-area{
 background-image: url("personal-website/biography-bg.png");
-background-size: unset;
+background-repeat: no-repeat;
+background-size:cover;
 
 }
-
+.footer{
+    margin: auto;
+    text-align: center;
+}
+.last{
+    text-align: center;
+}
+.box{
+    margin:auto;
+    background-color: red;
+    border-radius: 10px;
+    
+}
 h1 new-text{
 
 text-align: center;
