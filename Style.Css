@@ -1,5 +1,5 @@
 Body{
-    margin: o;
+    margin:0;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -11,7 +11,11 @@ font-size:30px;
 h2{
 
 font-size: 50px;
-color: rgb(255, 20, 145);
+color:#EC4C78;
+}
+
+h5{
+    font-size: 50px;
 }
 
 .half-width{
@@ -21,13 +25,15 @@ color: rgb(255, 20, 145);
     padding-top:5%;
 }
 .half-width img{
- width:100%;
+ width:500px;
+ height:500px;
 
 }
 
 .top-banner{
 background-image: url("personal-website/header-bg.png");
 background-repeat: no-repeat;
+background-size:cover;
 }
 section{
     height: 500px;
@@ -36,7 +42,7 @@ section{
 
 .link-button{
 text-decoration:none;
-background-color: rgb(255, 0, 255);
+background-color:#EC4C78;
 color:white;
 padding: 10px 20px;
 border-radius: 5px;
@@ -45,17 +51,60 @@ font-weight: 700px;
 
 .dream-area{
 background-image: url("personal-website/biography-bg.png");
-background-size: unset;
+background-repeat: no-repeat;
+background-size:cover;
 
 }
+.project-area{
+background-image: url("personal-website/latest-work-bg.png");
+background-repeat: no-repeat;
+}
+.project img{
+width:400px;
+}
+.image h2{
+margin-top:200px;
+text-align:center;
+color: black;
+}
+.image{
+    width:100%;
+    margin: auto;
+}
+#project{
+    float: left;
+    margin: 20px;
+}
 
-h1 new-text{
+.footer-area{
+background-image: url("personal-website/footer-bg.png");
+background-repeat: no-repeat;
+}
+.footer{
+    text-align: center;
+    color: black;
+}
+.founder{
+    margin-top:150px;
+    color: black;
+}
 
+h4{
+color:dimgray;
+font-size: 18px;
+}
+.last{
+color:black;
+margin-top: 399px;
+font-size: 18px;
+}
+.box{
+background-color: rgb(255, 20, 145);
+background-image: linear-gradient(45deg,red,);
 text-align: center;
-
-}
-section{
-
-    height: 500px;
-    padding-bottom: 150px;
+width: 350px;
+padding: 30px 70px;
+margin-left: 37%;
+color: white;
+font-size: 25px;
 }
